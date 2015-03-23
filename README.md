@@ -1,4 +1,4 @@
-shell scrips
+shell scrips, inspired by http://mislav.uniqpath.com/2014/02/hidden-documentation/
 
 BASH INSTALL
 
