@@ -27,4 +27,4 @@ pr_for_sha head~12
 pr_for_sha <SHA>
 ```
 
-I take no responsibility for this code--but, I will take credit for it
+I take no responsibility for this code--but I am open to taking some credit for it
