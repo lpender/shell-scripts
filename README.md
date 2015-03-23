@@ -4,6 +4,10 @@ shell scrips, inspired by http://mislav.uniqpath.com/2014/02/hidden-documentatio
 
 ``` sh
 cat scripts.sh >> .profile 
+```
+
+in your branch
+```
 setup_get_pr_for
 ```
 
@@ -14,3 +18,5 @@ If you rebase your branches before merging to master
 
 If you use a merge commit (the big green button)
 `pr_for_sha <SHA>`
+
+I take no responsibility for this code--but, I will take credit for it
