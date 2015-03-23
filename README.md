@@ -14,9 +14,17 @@ setup_get_pr_for
 # Usage
 
 If you rebase your branches before merging to master
-`get_pr_for <SHA>`
+
+``` sh
+get_pr_for head~12
+get_pr_for <SHA>
+```
 
 If you use a merge commit (the big green button)
-`pr_for_sha <SHA>`
+
+``` sh
+pr_for_sha head~12
+pr_for_sha <SHA>
+```
 
 I take no responsibility for this code--but, I will take credit for it
