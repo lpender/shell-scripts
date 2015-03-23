@@ -8,7 +8,7 @@ ln *.sh ~/.zsh/functions/
 
 ## in your branch
 ```
-setup_get_pr_for
+setup_git_pr_for
 ```
 
 # Usage
@@ -16,14 +16,14 @@ setup_get_pr_for
 If you rebase your branches before merging to master
 
 ``` sh
-pr_for_sha head~12
-pr_for_sha <SHA>
+git_pr_for head~12
+git_pr_for <SHA>
 ```
 
 # Uninstall
 
 ``` sh
-rm ~/.zsh/functions/pr_for_sha.sh
+rm ~/.zsh/functions/git_pr_for.sh
 ```
 
 ### If you use a merge commit (the big green button)
