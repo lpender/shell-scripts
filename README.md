@@ -1,11 +1,13 @@
 shell scrips, inspired by http://mislav.uniqpath.com/2014/02/hidden-documentation/
 
-BASH INSTALL
+# Bash install (i think)
 
-`cat lpender#scripts.sh >> .profile`
-`setup_get_pr_for`
+``` sh
+cat lpender#scripts.sh >> .profile 
+setup_get_pr_for
+```
 
-USAGE
+# Usage
 
 If you rebase your branches before merging to master
 `get_pr_for <SHA>`
