@@ -3,7 +3,7 @@ shell scrips, inspired by http://mislav.uniqpath.com/2014/02/hidden-documentatio
 # Bash install (i think)
 
 ``` sh
-cat lpender#scripts.sh >> .profile 
+cat scripts.sh >> .profile 
 setup_get_pr_for
 ```
 
