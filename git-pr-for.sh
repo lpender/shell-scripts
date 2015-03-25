@@ -1,6 +1,6 @@
 # Shell scripts from https://github.com/lpender/shell_scripts
 
-function git_pr_for {
+function git-pr-for {
   # Todo: make fetching/setup optional
   git fetch origin
   # Git all of the branches for PRs that have this SHA
@@ -13,7 +13,7 @@ function git_pr_for {
   xargs -I % open https://github.com/skilledup/skilledup-academy/pull/%
 }
 
-function setup_git_pr_for {
+function setup-git-pr-for {
   git config --add remote.origin.fetch +refs/pull/*/head:refs/remotes/origin/pull/*
   git fetch origin
 }
